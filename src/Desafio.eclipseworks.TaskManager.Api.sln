@@ -1,0 +1,79 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34701.34
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Desafio.EclipseWorks.TaskManager.Api", "Desafio.eclipseworks.TaskManager.Api\Desafio.EclipseWorks.TaskManager.Api.csproj", "{3461F6FC-91AB-457F-A044-AE6560DC9B19}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Api", "1 - Api", "{2F62A960-B25A-4E6C-9EEF-A6AE24999EE8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Application", "2 - Application", "{91AF30EF-D3DD-48B3-9108-5E8D28C89D9C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Domain", "3 - Domain", "{8CB92889-D206-4649-B00C-F7FDACB670C6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Infra", "4 - Infra", "{29F73B2D-76A9-4388-91DC-8A19D8A31982}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 - Tests", "5 - Tests", "{B66DF300-06E5-432E-A83C-86CC72B0C79C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Desafio.EclipseWorks.TaskManager.Application", "Desafio.eclipseworks.TaskManager.Application\Desafio.EclipseWorks.TaskManager.Application.csproj", "{C95D2876-4270-4A51-BDDE-D696F296AF16}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Desafio.EclipseWorks.TaskManager.Domain", "Desafio.eclipseworks.TaskManager.Domain\Desafio.EclipseWorks.TaskManager.Domain.csproj", "{3EEB6A3E-AB5C-4366-8FC4-E24D0DA51D4E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.1 - CrossCutting", "4.1 - CrossCutting", "{B61C6EC1-7EC2-466E-B893-4F0B209E1C40}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.2 - DataBase", "4.2 - DataBase", "{4C147FB6-24C9-4BE7-9FDF-C01478403A32}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Desafio.EclipseWorks.TaskManager.Infra.CrossCutting", "Desafio.eclipseworks.TaskManager.Infra.CrossCutting\Desafio.EclipseWorks.TaskManager.Infra.CrossCutting.csproj", "{15FEF407-97FE-4C17-821D-E54398D822F5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Desafio.EclipseWorks.TaskManager.Infra.DataBase", "Desafio.eclipseworks.TaskManager.Infra.DataBase\Desafio.EclipseWorks.TaskManager.Infra.DataBase.csproj", "{A7B98ABE-2158-46BF-9176-66A30E70B614}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Desafio.EclipseWorks.TaskManager.Tests", "Desafio.eclipseworks.TaskManager.Tests\Desafio.EclipseWorks.TaskManager.Tests.csproj", "{1B5BE3CA-1EAF-4B37-9ED5-E75570185C40}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3461F6FC-91AB-457F-A044-AE6560DC9B19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3461F6FC-91AB-457F-A044-AE6560DC9B19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3461F6FC-91AB-457F-A044-AE6560DC9B19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3461F6FC-91AB-457F-A044-AE6560DC9B19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C95D2876-4270-4A51-BDDE-D696F296AF16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C95D2876-4270-4A51-BDDE-D696F296AF16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C95D2876-4270-4A51-BDDE-D696F296AF16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C95D2876-4270-4A51-BDDE-D696F296AF16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3EEB6A3E-AB5C-4366-8FC4-E24D0DA51D4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EEB6A3E-AB5C-4366-8FC4-E24D0DA51D4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EEB6A3E-AB5C-4366-8FC4-E24D0DA51D4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EEB6A3E-AB5C-4366-8FC4-E24D0DA51D4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15FEF407-97FE-4C17-821D-E54398D822F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15FEF407-97FE-4C17-821D-E54398D822F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15FEF407-97FE-4C17-821D-E54398D822F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15FEF407-97FE-4C17-821D-E54398D822F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A7B98ABE-2158-46BF-9176-66A30E70B614}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A7B98ABE-2158-46BF-9176-66A30E70B614}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A7B98ABE-2158-46BF-9176-66A30E70B614}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A7B98ABE-2158-46BF-9176-66A30E70B614}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B5BE3CA-1EAF-4B37-9ED5-E75570185C40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B5BE3CA-1EAF-4B37-9ED5-E75570185C40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B5BE3CA-1EAF-4B37-9ED5-E75570185C40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B5BE3CA-1EAF-4B37-9ED5-E75570185C40}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3461F6FC-91AB-457F-A044-AE6560DC9B19} = {2F62A960-B25A-4E6C-9EEF-A6AE24999EE8}
+		{C95D2876-4270-4A51-BDDE-D696F296AF16} = {91AF30EF-D3DD-48B3-9108-5E8D28C89D9C}
+		{3EEB6A3E-AB5C-4366-8FC4-E24D0DA51D4E} = {8CB92889-D206-4649-B00C-F7FDACB670C6}
+		{B61C6EC1-7EC2-466E-B893-4F0B209E1C40} = {29F73B2D-76A9-4388-91DC-8A19D8A31982}
+		{4C147FB6-24C9-4BE7-9FDF-C01478403A32} = {29F73B2D-76A9-4388-91DC-8A19D8A31982}
+		{15FEF407-97FE-4C17-821D-E54398D822F5} = {B61C6EC1-7EC2-466E-B893-4F0B209E1C40}
+		{A7B98ABE-2158-46BF-9176-66A30E70B614} = {4C147FB6-24C9-4BE7-9FDF-C01478403A32}
+		{1B5BE3CA-1EAF-4B37-9ED5-E75570185C40} = {B66DF300-06E5-432E-A83C-86CC72B0C79C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8CAAD7F7-45C3-476D-AF82-0301BC4759AD}
+	EndGlobalSection
+EndGlobal
