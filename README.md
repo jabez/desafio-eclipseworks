@@ -72,11 +72,24 @@ O objetivo dessa etapa é trazer questionamentos e ideias para discussão com o 
 *  Implementar a restrição de remoção de tarefas concluídas;
 *  Construir fluxos de edição e exclusão de comentários;
 *  Realizar a Integração com aplicações de calendario externo (Google Calendar, Outlook) para facilitar o gerenciamento de prazos e notificações;
-*  Permitir que o usuário anexe documentos.
-*  Integrar com servicos de terceiros (email, slack e teams) para enviarmos notificações para o usuario (atualizações, prazos, vencimentos).
-*  Possibilidade de incluir mais de um responsavel pelo projeto/tarefa.
+*  Permitir que o usuário anexe documentos;
+*  Integrar com servicos de terceiros (email, slack e teams) para enviarmos notificações para o usuario (atualizações, prazos, vencimentos);
+*  Possibilidade de incluir mais de um responsavel pelo projeto/tarefa;
 *  Ser possivel personalizar categorias para as tarefas.
 
+## Fase 3 - Sugestões técnicas
 
+A ideia nesse momento é apresentar ideias para evolução tecnica do produto a partir da situação atual do projeto.
+
+* Implementar validações de campos obrigatórios e limitações de tamanho;
+* Desacoplar um pouco as entidades, principalmente por conta do mapeamento do EF;
+* Verificar a possibilidade de no futuro tirar o EF e trabalhar com Micro ORMs (dapper) ou ODO puro, em virtude de performace;
+* Na questão de performace poderiamos investir em base de leitura e escrita e cache;
+* A principio acredito que com as ideias acima a nossa aplicação não precisaria ser quebrada em microservico tão cedo pois um monolito consegue performar bem se bem feito;
+* Aumentar a cobertura de testes, principalmente a camada de de aplicação;
+* Incluir o Sonar para monitorar a qualidade do codigo desenvolvido;
+* Rodar os projetos no Kubernets e adotar a gestão de infra com terraform principalmente pela facilidade de implementação e subida;
+* Utilizar as opções de CI e CD das nuvens (azure e aws).
+* Como nossa aplicação ja está nascendo em docker, é fundamental que tenhamos ferramentas de observabilidade.
 
 
