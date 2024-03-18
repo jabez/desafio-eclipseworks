@@ -18,9 +18,17 @@ A arquitetura hexagonal foi escolhida para guiar o desenvolvimento da aplicaçã
 A comunicação entre as camadas se dá através de interfaces e injeção de dependência. Foi a adotado a estratégia de middleware para tratar as execeções de maneira global
 dando o devido retorno para cada tipo diferente de exception.<BR>
 Para atender o requisito de apenas pertimir a execução do relatorio para usuários com função especifica de gerente, foi adotado a estratégia de Filter, assim interceptando a requisição 
-e fazendo a validação necessária antes da mesma chegar ao controller.
-Cada camada tem seu papel definido:
-* *API* -> Camada de interface que expõe endpoints HTTP para comunicação externa com a aplicação.
+e fazendo a validação necessária antes da mesma chegar ao controller.<br>
+
+A aplicação é constituida por cinco camadas, cada uma com sua responsabilidade definida:
+* *API* - É a camada que expõe endpoints HTTP para comunicação externa, sendo a camada mais alto nivel;
+* *Application* - É a camada responsável pela orquestração as operações de negócio, fazendo a ponte entre a camada de API e o domínio;
+* *Domain* - Contém a lógica de negócios, entidades, e regras essenciais da aplicação;
+* *Infra* - Responsável pela implementação de acesso a dados, incluindo repositórios e configurações do Entity. Também é responsável pelo mapeamento de IoC;
+* *Tests* - Contém os testes unitários para garantir a qualidade e o funcionamento correto das regras de negócio.<br> 
+Em virtude do tempo proposto foram feitos apenas os testes do Dominio. 
+
+
 
 utilizando a stack .net, docker e o banco de dados SqlServer.
 
