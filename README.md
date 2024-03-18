@@ -68,6 +68,15 @@ Através do endpoint GET - Usuários é possível obter as informações desses 
 ## Fase 2 - Refinamento
 O objetivo dessa etapa é trazer questionamentos e ideias para discussão com o PO e o time, para evoluir e melhorar o produto nas proximas sprints.
 
-* Nessa primeira etapa entendo que seja um MVP, mas acredito que seria interessante termos mais claramente a definição de quais são os campos obrigatórios como também suas limitações, por exemplo: Limite de caracteres e  limite de data (passado e futuro).
-* asfas
+* Nessa primeira etapa entendo que seja um MVP, mas acredito que seria interessante termos mais claramente a definição de quais são os campos obrigatórios como também suas limitações, por exemplo: Limite de caracteres e  limite de data (passado e futuro);
+*  Implementar a restrição de remoção de tarefas concluídas;
+*  Construir fluxos de edição e exclusão de comentários;
+*  Realizar a Integração com aplicações de calendario externo (Google Calendar, Outlook) para facilitar o gerenciamento de prazos e notificações;
+*  Permitir que o usuário anexe documentos.
+*  Integrar com servicos de terceiros (email, slack e teams) para enviarmos notificações para o usuario (atualizações, prazos, vencimentos).
+*  Possibilidade de incluir mais de um responsavel pelo projeto/tarefa.
+*  Ser possivel personalizar categorias para as tarefas.
+
+
+
 
