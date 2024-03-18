@@ -14,7 +14,7 @@ A API é composta por End-points que permitem a gestão de projeto, tarefas e em
 ![alt](docs/swagger-api.png)
 
 ### Padrões e arquitetura
-A arquitetura hexagonal foi escolhida para guiar o desenvolvimento da aplicação somado aos preceitos do Clean Code e do SOLID.
+A arquitetura hexagonal foi escolhida para guiar o desenvolvimento da aplicação somado aos preceitos do Clean Code, SOLID e boas pratícas da comunidade.
 A comunicação entre as camadas se dá através de interfaces e injeção de dependência. Foi a adotado a estratégia de middleware para tratar as execeções de maneira global
 dando o devido retorno para cada tipo diferente de exception.<BR>
 Para atender o requisito de apenas pertimir a execução do relatorio para usuários com função especifica de gerente, foi adotado a estratégia de Filter, assim interceptando a requisição 
@@ -28,7 +28,16 @@ A aplicação é constituida por cinco camadas, cada uma com sua responsabilidad
 * *Tests* - Contém os testes unitários para garantir a qualidade e o funcionamento correto das regras de negócio.<br> 
 Em virtude do tempo proposto foram feitos apenas os testes do Dominio. 
 
+### frameworks, libs e tecnologias
+O projeto foi desenvolvido utilizando o .net na versão 8, rodando no Docker e persistindo os dados no SqlServer.<br>
 
-
-utilizando a stack .net, docker e o banco de dados SqlServer.
+Essas Foram as principais bibliotecas adotdas:
+* *EntityFrameworkCore* - É o ORM da aplicação, auxiliando na persistência dos dados;
+* *Asp.Versioning* - Utilizado para versionamento da API;
+* *Swashbuckle.AspNetCore* - Permite enriquecer a documentação da api via swagger;
+* *Microsoft.DependencyInjection* - Utilizado para a injeção de dependência;
+* *Bogus* - Utilizado para criar as fabricas de Fakes nos testes de unidade.
+* *FluentAssertions* - Usado para efetuar as validações dos testes de unidade.
+* *Moq* -> Utilizado para mockar o comportamento de classes externas nos testes de unidade.
+* *xunit* -> Foi o framework de teste adotado no projeto.
 
