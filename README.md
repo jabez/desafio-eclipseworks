@@ -41,5 +41,5 @@ Essas Foram as principais bibliotecas adotdas:
 * *Moq* -> Utilizado para mockar o comportamento de classes externas nos testes de unidade.
 * *xunit* -> Foi o framework de teste adotado no projeto.
 
-### 
-
+### Executar
+O projeto está configurado para rodar no docker juntamente com uma instancia do bando de dados SqlServer. Caso seja necessário rodar local basta inserir as credenciais do BD no appsettings.json
